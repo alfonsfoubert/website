@@ -27,7 +27,7 @@ How do you manage your own motivation so that you don’t fall for the easy path
 
 #### Be aware of the cost of inaction
 
-Make sure you’re constantly aware of what’s really costing you for the long term not calling that person, smoking, etc … it will help you when motivation goes down, which it will inevitably will.
+Make sure you’re constantly aware of what’s really costing you for the long term not calling that person, smoking, etc … it will help you when motivation goes down, which it inevitably will.
 
 #### Engineer your environment for your success
 

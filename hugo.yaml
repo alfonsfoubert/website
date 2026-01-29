@@ -107,7 +107,7 @@ params:
     content: "Coaching for engineering managers and tech leads who want to stop winging it and start leading with confidence."
     image: /images/portrait.jpg
     bottomImage:
-      enable: true
+      enable: false
     roundImage: true
     button:
       enable: true
@@ -350,6 +350,7 @@ params:
       linkedin: https://linkedin.com//in/alfonsfoubert/
       github: https://github.com/alfonsfoubert
       youtube: https://www.youtube.com/@ethicalcoaching8644
+      podcast: https://www.techasting.com/
 
   # List pages like blogs and posts
   listPages:

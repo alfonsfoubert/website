@@ -45,7 +45,7 @@ Each personality has specific yet recognizable traits. There are, however, three
 
 ### Blaming
 
-Most of the subjects constantly try to find people around them to blame for things they should be held responsible.
+Most of the subjects constantly try to find people around them to blame for things they should be held responsible for.
 
 In our example, Sarah blames Sean for not getting a raise and her former boss for hindering her career.
 
@@ -167,6 +167,6 @@ If you need help identifying these profiles give me a call. Remember that the fi
 
 ---
 
-Thanks to my collaborator (Noemí Peiró)[https://www.noemipeiro.com/]
+Thanks to my collaborator [Noemí Peiró](https://www.noemipeiro.com/)
 
 Edition by Sergi Estorch

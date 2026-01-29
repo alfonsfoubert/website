@@ -509,6 +509,10 @@ header .navbar.animate {
 
 #achievements img {
     border-radius: 0.7rem;
+    max-width: 120px;
+    max-height: 120px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* contact */

@@ -16,7 +16,7 @@ As you may have noticed I’ve decreased the amount of content I publish in my b
 
 The reason behind it is that the video and audio content I’m producing in Spanish along with the coaching sessions are keeping me very busy.
 
-For that reason I’ve decided to put a stop publishing content in english until I have time to proper deliver the content that you guys deserve.
+For that reason I've decided to put a stop to publishing content in English until I have time to properly deliver the content that you guys deserve.
 
 If you want content in Spanish though you can find me in my social networks.
 

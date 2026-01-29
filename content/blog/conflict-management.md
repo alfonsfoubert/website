@@ -15,7 +15,7 @@ Today I want to share with you the talk I gave at the Breakfast & Work MeetUp Ev
 
 This talk was one of the first times I did it for a public audience and the feedback was really amazing so thank you everybody for supporting me.
 
-Ever since this talk I became the conflict resolution guy so I like to think this was sort of a turning poing.
+Ever since this talk I became the conflict resolution guy so I like to think this was sort of a turning point.
 
 ## Summary
 
@@ -29,7 +29,7 @@ It’s important to realise that is not always easy to know what is it we want o
 
 **What does the other part want?**
 
-Same goes for the other part as well, look in how they talk, sometimes is even more important that what they actually say. An example of this is when somebody raises his voice is not to make a point but to be listened.
+Same goes for the other part as well, look in how they talk, sometimes is even more important that what they actually say. An example of this is when somebody raises his voice is not to make a point but to be listened to.
 
 **What am I willing to give up on?**
 
