@@ -1,0 +1,383 @@
+baseURL: "https://alfonsfoubert.com"
+languageCode: "en-us"
+title: "Alfons Foubert"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+#googleAnalytics:
+#id: G-MEASUREMENT_ID
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
+    - identifier: gallery
+      name: Gallery
+      title: Blog posts
+      url: /gallery
+      weight: 2
+
+params:
+  title: "Alfons Foubert"
+  description: Personal Website
+  favicon: "/fav.png"
+
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Alfons Foubert" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: true
+    menus:
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: false
+      disableAchievements: true
+      disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Alfons"
+    subtitle: "Lead with clarity, not doubt"
+    content: "Coaching for engineering managers and tech leads who want to stop winging it and start leading with confidence."
+    image: /images/portrait.jpg
+    bottomImage:
+      enable: true
+    roundImage: true
+    button:
+      enable: true
+      name: "Book a free call"
+      url: https://cal.com/alfons-foubert/free-consultation
+      download: false
+      newPage: true
+  #    socialLinks:
+  #      fontAwesomeIcons:
+  #        - icon: fab fa-calendar
+  #          url: https://cal.com/alfons-foubert/free-consultation
+  #        - icon: fab fa-podcast
+  #          url: https://www.techasting.com
+  #        - icon: fab fa-youtube
+  #          url: https://www.youtube.com/@ethicalcoaching8644
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I know how it feels
+
+      I remember the exact moment I got promoted and thought: "Now what?"
+
+      I've been leading technical teams for over 15 years and training leaders for 7. I've made every mistake in the book and learned how to fix them. Now I help engineering managers and tech leads find clarity when everything feels overwhelming.
+
+      I won't give you theory. I'll help you solve what's on your plate right now: the conflict with that senior engineer, the team that's underperforming, the expectations you don't know how to manage.
+
+      Because leadership isn't about having all the answers. It's about knowing what to do with the questions.
+    skills:
+      enable: false
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+
+  # Experience
+  experience:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - company: "Facebook"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Senior Software Developer"
+            date: "Jan 2023 - present"
+            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+            info:
+              content: Working as a senior software developer
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-react
+                  url: https://react.dev/
+                  tooltip: Example tooltip content
+                - icon: fab fa-x-twitter
+                  url: https://example.com
+                  # tooltip: Example tooltip content
+              customIcons:
+                - icon: /fav.png
+                  url: "https://example.com"
+                  tooltip: Example tooltip content
+          - name: "Software Developer"
+            date: "Jan 2022 - Dec 2023"
+            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
+
+      - company: "Amazon"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Software Developer"
+            date: "Sep 2020 - Dec 2021"
+            info:
+              content: I worked as a software developer for more than one year in Amazon.
+            content: |
+              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+              - Lead backend developer for a product.
+              - Created a frontend design for a product.
+
+      - company: "Apple"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Junior Software Developer"
+            date: "Jan 2020 - Aug 2020"
+            featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-react
+                  url: https://react.dev/
+                - icon: fab fa-x-twitter
+                  url: https://example.com
+              customIcons:
+                - icon: /fav.png
+                  url: "https://example.com"
+            content: |
+              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+              - Lead backend developer for a product.
+              - Created a frontend design for a product.
+
+      - company: "Netflix"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "UI/UX Designer"
+            date: "June 2017 - Nov 2019"
+            content: |
+              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+              - Lead backend developer for a product.
+              - Created a frontend design for a product.
+
+      - company: "Google"
+        companyUrl: "https://example.com"
+        jobs:
+          - name: "Product Designer"
+            date: "Feb 2016 - Mar 2017"
+            content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+
+  # Education
+  education:
+    enable: false
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Business Administration"
+        school:
+          name: "University of California, Berkeley"
+          url: "https://example.org"
+        date: "2013 - 2015"
+        GPA: "3.8 out of 5.0"
+        content: |-
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "Massachusetts Institute of Technology"
+          url: "https://example.org"
+        date: "2009 - 2013"
+        GPA: "3.9 out of 5.0"
+        content: |-
+          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+          - Face mask detection using a single convolutional neural network.
+
+          Extracurricular Activities
+            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "https://example.com"
+      - title: "High School"
+        school:
+          name: "Thomas Jefferson High School for Science and Technology."
+          url: "https://example.org"
+        GPA: "4.2 out of 5.0"
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "What Others Say"
+    items:
+      - title: Platinum Teacher
+        content: 1,000+ students completed my course on Platzi with a 4.8/5 rating.
+        url: https://platzi.com/cursos/okrs/
+        image: /images/achievements/platzi.png
+      - title: Maribel Quirós
+        content: "I didn't know about your coaching skills. You were a crack then, and you still are now."
+        url: "https://www.linkedin.com/in/maribel-quiros-carrero-20280930/"
+        image: /images/achievements/maribel.png
+      - title: Pedro Pablo Aparicio
+        image: /images/achievements/pablo.png
+        content: My team noticed the change before I did.
+        url: https://www.linkedin.com/in/pedropabloaparicio/
+      - title: Senén Freire Castro
+        content: "From every video I take something I can put into practice with my team."
+        image: /images/achievements/senen.png
+        url: "https://www.linkedin.com/in/senenfreire/"
+      - title: Macarena Rebolledo
+        content: "I love the way you work. Thank you for helping me see how I lead people."
+        url: "https://www.linkedin.com/in/mrebolledovaldivia/"
+        image: /images/achievements/macarena.png
+
+  # projects
+  projects:
+    enable: true
+    title: "Services"
+    items:
+      - title: 1:1 Coaching
+        content: Personalized sessions for your real challenges. Single session or packs available.
+        image: /images/services/coaching.jpg
+        featured:
+          name: Learn more
+          link: /services/coaching
+
+      - title: Team Training
+        content: Live workshops tailored to your company. Most requested—Conflict Management.
+        image: /images/services/training.jpg
+        featured:
+          name: Learn more
+          link: /services/training
+
+      - title: Online Courses
+        content: Self-paced learning on your schedule.
+        image: /images/services/online.jpg
+        featured:
+          name: Join Waitlist
+          link: /services/courses
+
+  #Contact
+  contact:
+    enable: true
+    title: "Ready to lead with clarity?"
+    content: Book a free 30-minute intro call. No strings attached—just a conversation to see if I can help.
+    btnName: Book a free call
+    btnLink: https://cal.com/alfons-foubert/free-consultation
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blog"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      linkedin: https://linkedin.com//in/alfonsfoubert/
+      github: https://github.com/alfonsfoubert
+      youtube: https://www.youtube.com/@ethicalcoaching8644
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
