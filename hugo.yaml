@@ -311,21 +311,21 @@ params:
     items:
       - title: 1:1 Coaching
         content: Personalized sessions for your real challenges. Single session or packs available.
-        image: /images/services/coaching.jpg
+        image: /images/services/1-1.jpg
         featured:
           name: Learn more
           link: /services/coaching
 
       - title: Team Training
         content: Live workshops tailored to your company. Most requested—Conflict Management.
-        image: /images/services/training.jpg
+        image: /images/services/whiteboard.avif
         featured:
           name: Let's talk
           link: https://cal.com/alfons-foubert/free-consultation
 
       - title: Online Courses
         content: Self-paced learning on your schedule.
-        image: /images/services/online.jpg
+        image: /images/services/leader.avif
         featured:
           name: Join Waitlist
           link: https://mailchi.mp/22ad16350bda/online-training-waitlist
