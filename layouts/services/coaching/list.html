@@ -1,0 +1,64 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Title }} - {{ .Site.Title }}">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/list.css" media="all">
+{{ end }}
+
+{{ define "title" }}
+{{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container pt-5" id="list-page">
+    <h2 class="text-center pb-2">{{ .Title }}</h2>
+    {{ if .Params.subtitle }}
+    <p class="text-center secondary-font mb-4">{{ .Params.subtitle }}</p>
+    {{ end }}
+
+    <div class="row">
+        {{ range .Params.packages }}
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    {{ if .image }}
+                    <div class="card-header">
+                        <img src="{{ .image }}" class="card-img-top" alt="{{ .title }}">
+                    </div>
+                    {{ end }}
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        {{ if .badge }}
+                        <span class="badge bg-secondary mb-2">{{ .badge }}</span>
+                        {{ end }}
+                        <h5 class="card-title bg-transparent" title="{{ .title }}">{{ .title }}</h5>
+                        {{ if .subtitle }}
+                        <p class="text-muted small mb-2">{{ .subtitle }}</p>
+                        {{ end }}
+                        <div class="card-text secondary-font">
+                            {{ .content | markdownify }}
+                        </div>
+                    </div>
+                    {{ if .button }}
+                    <div class="mt-auto post-footer bg-transparent py-3 text-center">
+                        <a class="btn btn-outline-info" href="{{ .button.url }}" target="_blank">
+                            {{ .button.text }}
+                        </a>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ if .Params.cta }}
+    <div class="text-center mt-5 py-4">
+        <h3>{{ .Params.cta.title }}</h3>
+        <p class="secondary-font">{{ .Params.cta.content | markdownify }}</p>
+        <div class="mt-3">
+            {{ range .Params.cta.buttons }}
+            <a class="btn btn-outline-info mx-2" href="{{ .url }}" target="_blank">{{ .text }}</a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
