@@ -19,7 +19,7 @@ enableRobotsTXT: true
 #id: G-MEASUREMENT_ID
 
 pagination:
-  pagerSize: 3
+  pagerSize: 6
 
 markup:
   goldmark:
@@ -320,15 +320,15 @@ params:
         content: Live workshops tailored to your company. Most requested—Conflict Management.
         image: /images/services/training.jpg
         featured:
-          name: Learn more
-          link: /services/training
+          name: Let's talk
+          link: https://cal.com/alfons-foubert/free-consultation
 
       - title: Online Courses
         content: Self-paced learning on your schedule.
         image: /images/services/online.jpg
         featured:
           name: Join Waitlist
-          link: /services/courses
+          link: https://mailchi.mp/22ad16350bda/online-training-waitlist
 
   #Contact
   contact:

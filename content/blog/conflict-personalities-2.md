@@ -1,5 +1,5 @@
 ---
-title: "How to Be Successful Managing High-Conflict Personalities (Part 2)"
+title: "(Part 2) How to Be Successful Managing High-Conflict Personalities"
 date: 2019-09-22T10:00:00+00:00
 draft: false
 author: "Alfons Foubert"
