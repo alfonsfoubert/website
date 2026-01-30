@@ -46,7 +46,7 @@ Menus:
 
 params:
   title: "Alfons Foubert"
-  description: Personal Website
+  description: Engineering Leadership Coach - Coaching for engineering managers and tech leads
   favicon: "/fav.png"
 
   useBootstrapCDN: false
