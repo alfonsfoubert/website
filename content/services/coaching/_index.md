@@ -13,7 +13,7 @@ packages:
       Perfect for quick advice on a specific challenge.
     button:
       text: "Book for 145€"
-      url: "https://buy.stripe.com/3cs9BZ3Rxh0xgmY28e"
+      url: "https://buy.stripe.com/4gM8wP9f6cNq20yfvQ3VC07"
 
   - title: "3-Session Pack"
     subtitle: "SOLVE YOUR CHALLENGE"
@@ -25,7 +25,7 @@ packages:
       Perfect for addressing a concrete challenge you're facing.
     button:
       text: "Book for 390€"
-      url: "https://buy.stripe.com/aEU4hF3Rx25D7QsaEI"
+      url: "https://buy.stripe.com/cNi00jcri6p26gO0AW3VC08"
 
   - title: "5-Session Pack"
     subtitle: "CAREER PROGRESS"
@@ -37,7 +37,7 @@ packages:
       Perfect for significant career transitions or leadership growth.
     button:
       text: "Book for 580€"
-      url: "https://buy.stripe.com/4gw9BZ87N6lT9YA149"
+      url: "https://buy.stripe.com/aFa9ATcriaFi0Wu4Rc3VC09"
 
 cta:
   title: "Not Sure Yet?"
